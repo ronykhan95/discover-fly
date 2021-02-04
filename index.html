@@ -168,12 +168,17 @@
 
             const grandTotal = totalPrice + tax;
             document.getElementById("grand-total").innerText = "$" + grandTotal;
-        }
-
-        document.getElementById("book-now").addEventListener("click", function () {
+            
+            document.getElementById("book-now").addEventListener("click", function () {
             document.getElementById("main").style.display = "none";
             document.getElementById("successfully").style.display = "block";
         });
+        }
+
+        // document.getElementById("book-now").addEventListener("click", function () {
+        //     document.getElementById("main").style.display = "none";
+        //     document.getElementById("successfully").style.display = "block";
+        // });
     </script>
 </body>
 
